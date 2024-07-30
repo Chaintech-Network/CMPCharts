@@ -2,7 +2,7 @@
 
 ✨ A very Minimal, Sleek and Lightweight Graph library for <b>Compose Multiplatform</b>
 
-<img width="960" alt="Hero-image - CMP-Chart 3" src="https://github.com/user-attachments/assets/13f72a1b-c695-486a-b38a-8aacc7a5bb43">
+<img width="960" alt="Hero-image - CMP-Chart 3" src="https://github.com/user-attachments/assets/8c8954bd-71f8-4678-8888-7a6e8dd0de7d">
 
 ## Key Features
 
