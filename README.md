@@ -2,7 +2,8 @@
 
 ✨ A very Minimal, Sleek and Lightweight Graph library for <b>Compose Multiplatform</b>
 
-<img width="960" alt="Hero-image - CMP-Chart 3" src="https://github.com/user-attachments/assets/8c8954bd-71f8-4678-8888-7a6e8dd0de7d">
+<img width="960" alt="Hero-image - CMP-Chart 3" src="https://github.com/user-attachments/assets/13f72a1b-c695-486a-b38a-8aacc7a5bb43">
+
 
 ## Key Features
 
@@ -43,52 +44,60 @@ commonMain.dependencies {
 ## Preview
 
 #### 1. Line Chart
-<img width="306" alt="image" src="https://github.com/user-attachments/assets/68cd28d8-a726-411a-a598-a9f04a299c41">
-<img width="307" alt="image" src="https://github.com/user-attachments/assets/89d98993-863d-4414-9c8b-36bd5a0573cc">
-<img width="306" alt="image" src="https://github.com/user-attachments/assets/4af024bf-fe23-4efa-8b5c-b9922741eec0">
-<img width="308" alt="image" src="https://github.com/user-attachments/assets/c18f7448-3383-4327-9af4-102593348f9a">
-<img width="305" alt="image" src="https://github.com/user-attachments/assets/8d6f2cdf-6ee0-46c2-a7d4-fcd6290ab6dd">
-<img width="309" alt="image" src="https://github.com/user-attachments/assets/a85a3509-0571-4f28-b395-4ee863d07330">
+<img width="306" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/67201642-4617-456d-8150-a0c7e9c1e54c">
+<img width="307" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/50e3cc7f-4283-4ca3-9509-eae57796d139">
+<img width="306" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/d2ec474d-3a3f-453c-9a1a-b7caaa8075f5">
+<img width="308" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/3c07fd9d-a3c4-4fd9-8625-d68046bbd93e">
+<img width="305" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/58b1de44-0535-4357-a4e3-4d58fe7dc7cb">
+<img width="309" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/15178d77-964c-4bc7-b548-2dd4ae3955c3">
 
 
 #### 2. Bar Chart
-<img width="306" alt="image" src="https://github.com/user-attachments/assets/7ba3ba6e-78d6-4a3b-b712-99beb1b72e74">
-<img width="303" alt="image" src="https://github.com/user-attachments/assets/dc52fc7a-2eaa-42e2-9a84-bd7f30388622">
-<img width="306" alt="image" src="https://github.com/user-attachments/assets/373b0bcf-8ac4-461c-b3c6-dc8cf60f35e1">
-<img width="306" alt="image" src="https://github.com/user-attachments/assets/be50c661-b5e2-4194-8c28-18aea6c32fe8">
-<img width="305" alt="image" src="https://github.com/user-attachments/assets/adbe9b3f-f6d0-4d79-945b-939cea43bb27">
-<img width="306" alt="image" src="https://github.com/user-attachments/assets/33b47754-543d-4ae6-b3d3-95dd93751445">
+<img width="306" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/8a8bed14-7349-44d7-a03a-fcddcb36b588">
+<img width="303" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/e53a5166-e506-4c33-8f52-075fe924f710">
+<img width="306" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/7681c1d4-0785-43b0-b40d-40361f8138a3">
+<img width="306" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/7a6a9609-4f9b-4552-91d3-84d59fc67ad9">
+<img width="305" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/5adea432-210c-4600-8f2a-6a0dd658986e">
+<img width="306" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/02aab76c-da26-4f49-9829-9f140f3b5538">
 
 
 #### 3. Bubble Chart
-<img width="307" alt="image" src="https://github.com/user-attachments/assets/a236b144-8540-4fff-b0eb-45bcb1819e1c">
-<img width="307" alt="image" src="https://github.com/user-attachments/assets/043edbd6-7610-4b7a-a2da-3d0c3850721e">
+<img width="307" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/0d65fdd1-bcb6-48fd-88f2-6e1b9915d7c3">
+<img width="307" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/5bf83e87-07c3-4ca2-9f60-7ab284f8b3f9">
 
 
 #### 4. Donut Chart
-<img width="307" alt="image" src="https://github.com/user-attachments/assets/820d864d-50eb-499a-9a4b-09feea6eb989">
-<img width="308" alt="image" src="https://github.com/user-attachments/assets/32805719-f5a3-48fe-934c-89021f4d996a">
+<img width="307" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/e754ca47-0c3c-41f2-bf03-92a0146700c1">
+<img width="308" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/378ac976-1681-4929-a0d4-786ae3fd90f4">
 
 
 #### 5. Pie Chart
-<img width="308" alt="image" src="https://github.com/user-attachments/assets/48f844a0-b6f9-46b1-a14c-726ebf1ac258">
-<img width="307" alt="image" src="https://github.com/user-attachments/assets/c2296418-2f92-4f65-9a21-a9376f347aeb">
+<img width="308" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/0cb72475-ecba-452a-8b41-6f6fe8b48f9b">
+<img width="307" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/8c240cd8-931b-42a0-bb85-9f000a9cb70c">
 
 
 #### 6. Gauge Chart
-<img width="302" alt="image" src="https://github.com/user-attachments/assets/4f30a76c-ded1-495e-9af6-c0c8c528292c">
+<img width="302" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/2627b61a-ce5d-4a8b-ada5-667b8f077245">
 
 
 #### 7. Circular Chart
-<img width="308" alt="image" src="https://github.com/user-attachments/assets/de715540-5371-4975-97ce-67f6b2662c2e">
+<img width="308" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/d53e29bd-8858-4628-9483-c58506f8970c">
 
 
 #### 8. Area Chart
-<img width="307" alt="image" src="https://github.com/user-attachments/assets/519c3d2a-4f06-4e36-9680-8ce4bf2d5cd6">
+<img width="307" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/546a6e5b-0ab9-4f30-8238-ad4317d4b8b5">
 
 
 #### 9. Point Chart
-<img width="306" alt="image" src="https://github.com/user-attachments/assets/25814411-e195-4e74-b278-e6e7001ffd3f">
+<img width="306" alt="image" src="https://github.com/yashctn88/chartscmp/assets/151529947/2df7baab-59ed-49c4-81b6-f3f96912cc78">
+
+
+#### 10. Bottle Chart
+<img width="309" alt="image" src="https://github.com/user-attachments/assets/607914b0-d085-429c-9db4-ea228cafa124">
+
+
+#### 11. Segment Progress Bar Chart
+<img width="312" alt="image" src="https://github.com/user-attachments/assets/aeb8e2f6-34f7-431c-9479-8c5ab5e6825e">
 
 
 # Usage
@@ -762,6 +771,112 @@ fun getPointChartList() = listOf(
 )
 ```
 
+### 10. <ins>Bottle Chart</ins>
+
+#### a. Bottle Chart Configuration
+
+| Property                      | Type              | Description                                                                                     |
+|-------------------------------|-------------------|-------------------------------------------------------------------------------------------------|
+| `bottleHeight`                | `Dp`              | Height of the bottle.                                                                           |
+| `bottleWidth`                 | `Dp`              | Width of the bottle.                                                                            |
+| `bottleBottomRadius`          | `Dp`              | Radius of the bottle's bottom.                                                                  |
+| `bottleWaterTopRadius`        | `Dp`              | Radius at the top of the water inside the bottle.                                               |
+| `shouldAnimateProgress`       | `Boolean`         | Flag indicating whether to animate the progress.                                                |
+| `animationDurationMillis`     | `Int`             | Duration of the animation in milliseconds.                                                      |
+| `bottleFilledProgressPercent` | `Float`           | Percentage of the bottle filled with water, ranging from `0.0` to `1.0`.                        |
+| `bottleColorStyle`            | `BottleColorStyle`| Style object defining the colors of the bottle.                                                 |
+
+#### b. Display Bottle Chart
+
+```
+@Composable
+fun BottleChartDemo() {
+    BottleChart(
+        bottleChartConfig = BottleChartConfig(
+            bottleHeight = 350.dp,
+            bottleWidth = 250.dp,
+            bottleColorStyle = BottleColorStyle(
+                 bottleOuterLineColor = Color(0xFF59A7D9),
+                 bottleInnerFluidColor = Color(0xFF59A7D9),
+                 bottleCorkColor = Color(0xFF40291D)
+            ),
+            bottleBottomRadius = 15.dp,
+            bottleWaterTopRadius = 30.dp,
+            bottleFilledProgressPercent = 0.50f,
+            shouldAnimateProgress = true,
+            animationDurationMillis = 1500
+        )
+    )
+}
+```
+
+### 11. <ins>Segment Progress Bar Chart</ins>
+
+#### a. Segment Progress Bar Chart Configuration
+
+| Property                     | Type                     | Description                                                                                     |
+|------------------------------|--------------------------|-------------------------------------------------------------------------------------------------|
+| `cornerRadius`               | `Dp`                     | Corner radius of the progress bar.                                                              |
+| `displayScale`               | `Boolean`                | Flag indicating whether to display the scale.                                                   |
+| `scaleLabels`                | `List<String>`           | List of labels for the scale, typically indicating progress percentages.                        |
+| `segmentsHeight`             | `Dp`                     | Height of the segments in the progress bar.                                                     |
+| `scaleThickness`             | `Dp`                     | Thickness of the scale line.                                                                    |
+| `scaleFontFamily`            | `FontFamily?`            | Font family for the scale labels.                                                               |
+| `scaleFontWeight`            | `FontWeight`             | Font weight for the scale labels.                                                               |
+| `scaleFontSize`              | `TextUnit`               | Font size for the scale labels.                                                                 |
+| `pointerHeight`              | `Dp`                     | Height of the pointer.                                                                          |
+| `pointerWidth`               | `Dp`                     | Width of the pointer.                                                                           |
+| `pointerTipHeight`           | `Dp`                     | Height of the pointer's tip.                                                                    |
+| `shouldAnimateProgress`      | `Boolean`                | Flag indicating whether to animate the progress.                                                |
+| `animationDurationMillis`    | `Int`                    | Duration of the animation in milliseconds.                                                      |
+| `segmentsList`               | `List<SegmentInfo>`      | List of segments, each defined with a color and weight.                                         |
+| `progress`                   | `Float`                  | Progress percentage, ranging from `0.0` to `1.0`.                                               |
+| `segmentProgressBarColors`   | `SegmentProgressBarColors`| Object defining the colors used in the segment progress bar.                                    |
+
+#### b. Display Segment Progress Bar Chart
+
+```
+@Composable
+fun SegmentProgressBarChartDemo() {
+    Box(modifier = Modifier.padding(top = 16.dp).fillMaxSize()) {
+        SegmentedProgressBarChart(
+            segmentProgressBarConfig = SegmentProgressBarConfig(
+                cornerRadius = 10.dp,
+                segmentsHeight = 120.dp,
+                scaleThickness = 1.1.dp,
+                scaleFontFamily = FontFamily(
+                    Font(Res.font.Roboto_Regular, weight = FontWeight.Normal)
+                ),
+                scaleFontWeight = FontWeight.Normal,
+                shouldAnimateProgress = true,
+                segmentsList = listOf(
+                    SegmentInfo(
+                        segmentColor = Color(0xFFFF0000), segmentWeight = 1.0f
+                    ), SegmentInfo(
+                        segmentColor = Color(0xFFFFA500), segmentWeight = 2.0f
+                    ), SegmentInfo(
+                        segmentColor = Color(0xFFFFD700), segmentWeight = 2.0f
+                    ), SegmentInfo(
+                        segmentColor = Color(0x80008000), segmentWeight = 1.0f
+                    ), SegmentInfo(
+                        segmentColor = Color(0xFF008000), segmentWeight = 1.0f
+                    )
+                ),
+                pointerWidth = 12.dp,
+                pointerHeight = 60.dp,
+                pointerTipHeight = 20.dp,
+                displayScale = true,
+                scaleFontSize = 11.sp,
+                segmentProgressBarColors = SegmentProgressBarColors(
+                    pointerColor = Color(0xFF2F4F4F),
+                    scaleTextColor = Color(0xFF7D7F7C),
+                    scaleColor = Color(0xFF7D7F7C)
+                )
+            )
+        )
+    }
+}
+```
 
 ## Detailed Explanation
 For a detailed explanation and a comprehensive guide, please read the [Medium blog post.](https://medium.com/mobile-innovation-network/introducing-compose-multiplatform-charts-solution-for-seamless-charts-integration-to-app-488355a6e098)
