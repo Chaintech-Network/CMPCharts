@@ -1,6 +1,5 @@
 rootProject.name = "ComposeChartsCmp"
 include(":composeApp")
-include(":cmpcharts")
 
 pluginManagement {
     repositories {
