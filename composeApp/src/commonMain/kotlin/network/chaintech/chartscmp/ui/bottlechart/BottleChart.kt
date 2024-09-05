@@ -1,4 +1,4 @@
-package network.chaintech.chartscmp.ui
+package network.chaintech.chartscmp.ui.bottlechart
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color

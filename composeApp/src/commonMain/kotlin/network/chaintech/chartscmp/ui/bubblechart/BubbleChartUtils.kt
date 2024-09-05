@@ -1,134 +1,19 @@
-package network.chaintech.chartscmp.ui
+package network.chaintech.chartscmp.ui.bubblechart
 
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.TileMode
 import androidx.compose.ui.text.TextMeasurer
-import androidx.compose.ui.text.font.FontFamily
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.rememberTextMeasurer
-import androidx.compose.ui.unit.dp
 import kotlin.random.Random
 import network.chaintech.chartscmp.theme.blue_dark
-import network.chaintech.chartscmp.theme.font_color
 import network.chaintech.chartscmp.theme.green_dark
 import network.chaintech.chartscmp.theme.magenta_dark
 import network.chaintech.chartscmp.theme.pink_dark
-import network.chaintech.cmpcharts.axis.AxisData
-import network.chaintech.cmpcharts.common.extensions.formatToSinglePrecision
 import network.chaintech.cmpcharts.common.model.Point
-import network.chaintech.cmpcharts.common.ui.GridLinesUtil
 import network.chaintech.cmpcharts.common.ui.SelectionHighlightPoint
 import network.chaintech.cmpcharts.common.ui.SelectionHighlightPopUp
-import network.chaintech.cmpcharts.ui.bubblechart.BubbleChart
 import network.chaintech.cmpcharts.ui.bubblechart.model.Bubble
-import network.chaintech.cmpcharts.ui.bubblechart.model.BubbleChartData
 import network.chaintech.cmpcharts.ui.bubblechart.model.BubbleGradientType
 import network.chaintech.cmpcharts.ui.bubblechart.model.BubbleStyle
-import network.chaintech.composeapp.generated.resources.Res
-import network.chaintech.composeapp.generated.resources.Roboto_Regular
-import org.jetbrains.compose.resources.Font
-
-@Composable
-fun GradientBubbleChart(pointsData: List<Point>) {
-    val steps = 5
-    val textMeasurer = rememberTextMeasurer()
-    val xAxisData = AxisData.Builder()
-        .fontFamily(
-            fontFamily = FontFamily(
-                Font(Res.font.Roboto_Regular, weight = FontWeight.Normal)
-            )
-        )
-        .axisLineColor(lineColor = font_color)
-        .axisStepSize(30.dp)
-        .steps(pointsData.size - 1)
-        .labelData { i -> pointsData[i].x.toInt().toString() }
-        .labelAndAxisLinePadding(15.dp)
-        .build()
-
-    val yAxisData = AxisData.Builder()
-        .fontFamily(
-            fontFamily = FontFamily(
-                Font(Res.font.Roboto_Regular, weight = FontWeight.Normal)
-            ),
-        )
-        .axisLineColor(lineColor = font_color)
-        .steps(steps)
-        .labelAndAxisLinePadding(15.dp)
-        .labelData { i ->
-            // Add yMin to get the negative axis values to the scale
-            val yMin = pointsData.minOf { it.y }
-            val yMax = pointsData.maxOf { it.y }
-            val yScale = (yMax - yMin) / steps
-            ((i * yScale) + yMin).formatToSinglePrecision()
-        }.build()
-
-    val data = BubbleChartData(
-        getBubbleChartDataWithGradientStyle(points = pointsData, textMeasurer = textMeasurer),
-        xAxisData = xAxisData,
-        yAxisData = yAxisData,
-        gridLines = GridLinesUtil()
-    )
-
-    BubbleChart(
-        modifier = Modifier
-            .fillMaxWidth()
-            .height(500.dp),
-        bubbleChartData = data
-    )
-
-}
-
-@Composable
-fun SolidBubbleChart(pointsData: List<Point>) {
-    val steps = 5
-    val textMeasurer = rememberTextMeasurer()
-    val xAxisData = AxisData.Builder()
-        .fontFamily(
-            fontFamily = FontFamily(
-                Font(Res.font.Roboto_Regular, weight = FontWeight.Normal)
-            )
-        )
-        .axisLineColor(lineColor = font_color)
-        .axisStepSize(30.dp)
-        .steps(pointsData.size - 1)
-        .labelData { i -> pointsData[i].x.toInt().toString() }
-        .labelAndAxisLinePadding(15.dp)
-        .build()
-
-    val yAxisData = AxisData.Builder()
-        .fontFamily(
-            fontFamily = FontFamily(
-                Font(Res.font.Roboto_Regular, weight = FontWeight.Normal)
-            )
-        )
-        .axisLineColor(lineColor = font_color)
-        .steps(steps)
-        .labelAndAxisLinePadding(15.dp)
-        .labelData { i ->
-            val yMin = pointsData.minOf { it.y }
-            val yMax = pointsData.maxOf { it.y }
-            val yScale = (yMax - yMin) / steps
-            ((i * yScale) + yMin).formatToSinglePrecision()
-        }.build()
-
-    val data = BubbleChartData(
-        getBubbleChartDataWithSolidStyle(points = pointsData, textMeasurer = textMeasurer),
-        xAxisData = xAxisData,
-        yAxisData = yAxisData,
-        gridLines = GridLinesUtil()
-    )
-
-    BubbleChart(
-        modifier = Modifier
-            .fillMaxWidth()
-            .height(500.dp),
-        bubbleChartData = data
-    )
-}
 
 fun getBubbleChartDataWithGradientStyle(
     points: List<Point>,
