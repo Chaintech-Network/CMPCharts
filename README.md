@@ -26,7 +26,7 @@ Add the following dependency to your `build.gradle.kts` file:
 
 ```kotlin
 commonMain.dependencies {
-    implementation("network.chaintech:cmpcharts:1.0.3")
+    implementation("network.chaintech:cmpcharts:2.0.0")
 }
 ```
 
