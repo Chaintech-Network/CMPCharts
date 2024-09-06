@@ -1,4 +1,4 @@
-package network.chaintech.chartscmp.ui.segmentprogressbarchart
+package network.chaintech.chartscmp.ui
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize

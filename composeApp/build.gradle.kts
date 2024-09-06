@@ -1,5 +1,7 @@
 
 import com.android.build.api.dsl.ManagedVirtualDevice
+import org.jetbrains.compose.ExperimentalComposeLibrary
+import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -19,14 +21,14 @@ kotlin {
             }
         }
         //https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-test.html
-//        @OptIn(ExperimentalKotlinGradlePluginApi::class)
-//        instrumentedTestVariant {
+        @OptIn(ExperimentalKotlinGradlePluginApi::class)
+        instrumentedTestVariant {
 //            sourceSetTree.set(KotlinSourceSetTree.test)
 //            dependencies {
 //                debugImplementation(libs.androidx.testManifest)
 //                implementation(libs.androidx.junit4)
 //            }
-//        }
+        }
     }
 
     listOf(
@@ -52,14 +54,14 @@ kotlin {
             implementation(compose.material3)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
-            implementation("network.chaintech:cmpcharts:2.0.0")
+            implementation("network.chaintech:cmpcharts:1.0.2")
         }
 
-//        commonTest.dependencies {
-//            implementation(kotlin("test"))
-//            @OptIn(ExperimentalComposeLibrary::class)
-//            implementation(compose.uiTest)
-//        }
+        commonTest.dependencies {
+            implementation(kotlin("test"))
+            @OptIn(ExperimentalComposeLibrary::class)
+            implementation(compose.uiTest)
+        }
 
         androidMain.dependencies {
             implementation(compose.uiTooling)
