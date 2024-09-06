@@ -1,4 +1,4 @@
-package network.chaintech.chartscmp.ui
+package network.chaintech.chartscmp.ui.pointchart
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth

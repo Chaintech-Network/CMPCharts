@@ -102,4 +102,8 @@ internal val font_color = Color(0xFF333333)
 internal val white_color = Color(0xFFFFFFFF)
 internal val transparent_color = Color(0x00000000)
 
+internal val red_dark = Color(0xFFEA3323)
+internal val red_medium = Color(0xFFEB554E)
+internal val red_light = Color(0xFFF8D8D7)
+
 
