@@ -32,6 +32,7 @@ import network.chaintech.chartscmp.ui.bottlechart.BottleChartDemo
 import network.chaintech.chartscmp.ui.bubblechart.GradientBubbleChart
 import network.chaintech.chartscmp.ui.bubblechart.SolidBubbleChart
 import network.chaintech.chartscmp.ui.circularchart.CircularChartDemo
+import network.chaintech.chartscmp.ui.cloudbubblechart.BubbleChartPreview
 import network.chaintech.chartscmp.ui.donutchart.MultipleSmallDonutCharts
 import network.chaintech.chartscmp.ui.donutchart.SimpleDonutChart
 import network.chaintech.chartscmp.ui.guagechart.GaugeChartDemo
@@ -61,6 +62,14 @@ internal fun App() = AppTheme {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Text(
+            modifier= Modifier.padding(12.dp),
+            text = "Cloud Bubble Chart",
+            style = MaterialTheme.typography.titleLarge,
+            fontWeight = FontWeight.Bold
+        )
+        BubbleChartPreview()
+        Spacer(modifier = Modifier.height(30.dp))
         Text(
             modifier= Modifier.padding(12.dp),
             text = "HeatMap Chart",
@@ -212,10 +221,10 @@ internal fun App() = AppTheme {
         )
         DashedLineChart(
             getLineChartData(
-            200,
-            start = -50,
-            maxRange = 50
-        )
+                200,
+                start = -50,
+                maxRange = 50
+            )
         )
         Text(
             modifier = Modifier.padding(12.dp),
@@ -225,10 +234,10 @@ internal fun App() = AppTheme {
         )
         MultipleToneLineChart(
             getLineChartData(
-            200,
-            start = -50,
-            maxRange = 50
-        )
+                200,
+                start = -50,
+                maxRange = 50
+            )
         )
         Text(
             modifier = Modifier.padding(12.dp),
@@ -238,10 +247,10 @@ internal fun App() = AppTheme {
         )
         CombinedLineChart(
             getLineChartData(
-            200,
-            start = -50,
-            maxRange = 50
-        )
+                200,
+                start = -50,
+                maxRange = 50
+            )
         )
         Text(
             modifier = Modifier.padding(12.dp),
@@ -251,10 +260,10 @@ internal fun App() = AppTheme {
         )
         CombinedLineChartWithBackground(
             getLineChartData(
-            200,
-            start = -50,
-            maxRange = 50
-        )
+                200,
+                start = -50,
+                maxRange = 50
+            )
         )
         Text(
             modifier = Modifier.padding(12.dp),

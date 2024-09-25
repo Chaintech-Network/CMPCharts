@@ -26,7 +26,7 @@ Add the following dependency to your `build.gradle.kts` file:
 
 ```kotlin
 commonMain.dependencies {
-    implementation("network.chaintech:cmpcharts:2.0.0")
+    implementation("network.chaintech:cmpcharts:2.0.1")
 }
 ```
 
@@ -206,14 +206,6 @@ commonMain.dependencies {
                 <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/circularchart/CircularChart.kt">Code Snippet</a></sup>
             </div>
         </td>
-        <td width="33%" align="center">
-            <h4>Area Chart</h4>
-            <hr>
-            <img src="/assets/area1.png" alt="Area Chart" style="height: 260px;">
-            <div style="text-align: center;">
-                <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/areachart/AreaChart.kt">Code Snippet</a></sup>
-            </div>
-        </td>
     </tr>
     <tr>
         <td width="33%" align="center">
@@ -256,6 +248,24 @@ commonMain.dependencies {
             <img src="/assets/heatmap1.png" alt="Heat Map Chart" style="height: 260px;">
             <div style="text-align: center;">
                 <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/heatmapchart/HeatMapChart.kt">Code Snippet</a></sup>
+            </div>         
+        </td>
+    </tr>
+    <tr>
+        <td colspan="1" align="center">
+            <h4>Area Chart</h4>
+            <hr>
+            <img src="/assets/area1.png" alt="Area Chart" style="height: 260px;">
+            <div style="text-align: center;">
+                <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/areachart/AreaChart.kt">Code Snippet</a></sup>
+            </div>
+        </td>
+        <td colspan="1" align="center">
+            <h4>Cloud Bubble Chart</h4>
+            <hr>
+            <img src="/assets/cloudbubble1.png" alt="Cloud Bubble Chart" style="height: 260px;">
+            <div style="text-align: center;">
+                <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/cloudbubblechart/CloudBubbleChart.kt">Code Snippet</a></sup>
             </div>         
         </td>
     </tr>
