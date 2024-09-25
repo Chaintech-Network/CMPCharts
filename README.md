@@ -138,7 +138,7 @@ commonMain.dependencies {
         </td>
     </tr>
     <tr>
-        <td width="33%" align="center">
+        <td colspan="1" align="center">
             <h4>Solid Bubble Chart</h4>
             <hr>
             <img src="/assets/bubble1.png" alt="Solid Bubble Chart" style="height: 260px;">
@@ -146,7 +146,7 @@ commonMain.dependencies {
                 <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/bubblechart/SimpleBubbleChart.kt">Code Snippet</a></sup>
             </div>
         </td>
-        <td width="33%" align="center">
+        <td colspan="2" align="center">
             <h4>Gradient Bubble Chart</h4>
             <hr>
             <img src="/assets/bubble2.png" alt="Grouped Bar Chart" style="height: 260px;">
@@ -154,7 +154,9 @@ commonMain.dependencies {
                 <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/bubblechart/GradientBubbleChart.kt">Code Snippet</a></sup>
             </div>
         </td>
-        <td width="33%" align="center">
+    </tr>
+    <tr>
+        <td colspan="1" align="center">
             <h4>Simple Donut Chart</h4>
             <hr>
             <img src="/assets/donut1.png" alt="Simple Donut Chart" style="height: 260px;">
@@ -162,9 +164,7 @@ commonMain.dependencies {
                 <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/donutchart/SimpleDonutChart.kt">Code Snippet</a></sup>
             </div>
         </td>
-    </tr>
-    <tr>
-        <td width="33%" align="center">
+        <td colspan="2" align="center">
             <h4>Multiple Small Donut Chart</h4>
             <hr>
             <img src="/assets/donut2.png" alt="Multiple Small Donut Chart" style="height: 260px;">
@@ -172,7 +172,9 @@ commonMain.dependencies {
                 <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/donutchart/MultipleDonutChart.kt">Code Snippet</a></sup>
             </div>
         </td>
-        <td width="33%" align="center">
+        </tr>
+    <tr>
+        <td colspan="1" align="center">
             <h4>Simple Pie Chart</h4>
             <hr>
             <img src="/assets/pie1.png" alt="Simple Pie Chart" style="height: 260px;">
@@ -180,7 +182,7 @@ commonMain.dependencies {
                 <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/piechart/SimplePieChart.kt">Code Snippet</a></sup>
             </div>
         </td>
-        <td width="33%" align="center">
+        <td colspan="2" align="center">
             <h4>PieChart With Slice Labels</h4>
             <hr>
             <img src="/assets/pie2.png" alt="PieChart With Slice Labels" style="height: 260px;">
@@ -190,15 +192,15 @@ commonMain.dependencies {
         </td>
     </tr>
     <tr>
-        <td width="33%" align="center">
+        <td colspan="1" align="center">
             <h4>Guage Chart</h4>
             <hr>
-            <img src="/assets/guage1.png" alt="Guage Chart" style="height: 260px;">
+            <img src="/assets/guage1.png" alt="Guage Chart" style="height: 250px;">
             <div style="text-align: center;">
                 <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/guagechart/GaugeChart.kt">Code Snippet</a></sup>
             </div>
         </td>
-        <td width="33%" align="center">
+        <td colspan="2" align="center">
             <h4>Circular Chart</h4>
             <hr>
             <img src="/assets/circular1.png" alt="Circular Chart" style="height: 260px;">
@@ -260,7 +262,7 @@ commonMain.dependencies {
                 <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/areachart/AreaChart.kt">Code Snippet</a></sup>
             </div>
         </td>
-        <td colspan="1" align="center">
+        <td colspan="2" align="center">
             <h4>Cloud Bubble Chart</h4>
             <hr>
             <img src="/assets/cloudbubble1.png" alt="Cloud Bubble Chart" style="height: 260px;">
