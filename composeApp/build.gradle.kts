@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsCompose)
+    alias(libs.plugins.jetbrainsKotlinCompose)
 }
 
 kotlin {
@@ -52,7 +53,8 @@ kotlin {
             implementation(compose.material3)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
-            implementation("network.chaintech:cmpcharts:2.0.1")
+            implementation("network.chaintech:cmptoast:1.0.1")
+            implementation("network.chaintech:cmpcharts:2.0.2")
         }
 
 //        commonTest.dependencies {

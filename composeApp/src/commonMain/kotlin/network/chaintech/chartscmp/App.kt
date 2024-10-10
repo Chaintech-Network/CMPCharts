@@ -49,6 +49,7 @@ import network.chaintech.chartscmp.ui.piechart.SimplePieChart
 import network.chaintech.chartscmp.ui.pointchart.PointChartDemo
 import network.chaintech.chartscmp.ui.radarchart.RadarChartDemo
 import network.chaintech.chartscmp.ui.segmentprogressbarchart.SegmentProgressBarChartDemo
+import network.chaintech.chartscmp.ui.treemapchart.TreeMapChartPreview
 import network.chaintech.cmpcharts.common.utils.DataUtils
 
 @Composable
@@ -62,6 +63,13 @@ internal fun App() = AppTheme {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Text(
+            modifier= Modifier.padding(12.dp),
+            text = "TreeMap Chart",
+            style = MaterialTheme.typography.titleLarge,
+            fontWeight = FontWeight.Bold
+        )
+        TreeMapChartPreview()
         Text(
             modifier= Modifier.padding(12.dp),
             text = "Cloud Bubble Chart",

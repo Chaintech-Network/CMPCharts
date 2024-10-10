@@ -34,27 +34,29 @@ fun RadarChartDemo(modifier: Modifier) {
             maxLabelWidth = 25.dp,
             scaleStepsCount = 5,
             radarChartDataSet = listOf(
-                RadarChartDataSet(style = RadarChartDataSetStyle(
-                    color = blue_medium,
-                    strokeCap = StrokeCap.Butt,
-                    strokeWidth = 1.0f,
-                    colorAlpha = 0.3f,
-                    borderColor = font_color
-                ),
+                RadarChartDataSet(
+                    style = RadarChartDataSetStyle(
+                        color = blue_medium,
+                        strokeCap = StrokeCap.Butt,
+                        strokeWidth = 1.0f,
+                        colorAlpha = 0.3f,
+                        borderColor = font_color
+                    ),
                     data = listOf(117.0, 180.0, 120.0, 145.0, 85.0)
                 ),
-                RadarChartDataSet(style = RadarChartDataSetStyle(
-                    brush = Brush.horizontalGradient(
-                        colors = listOf(
-                            green_dark,
-                            green_medium
-                        )
-                    ),
-                    colorAlpha = 0.1f,
-                    strokeCap = StrokeCap.Butt,
-                    strokeWidth = 1.0f,
-                    borderColor = font_color
-                ), data = listOf(110.0, 150.0, 120.0, 190.0, 35.0)
+                RadarChartDataSet(
+                    style = RadarChartDataSetStyle(
+                        brush = Brush.horizontalGradient(
+                            colors = listOf(
+                                green_dark,
+                                green_medium
+                            )
+                        ),
+                        colorAlpha = 0.1f,
+                        strokeCap = StrokeCap.Butt,
+                        strokeWidth = 1.0f,
+                        borderColor = font_color
+                    ), data = listOf(110.0, 150.0, 120.0, 190.0, 35.0)
                 ),
             ),
             radarChartLineStyle = RadarChartLineStyle(

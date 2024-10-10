@@ -20,6 +20,7 @@ class AndroidApp : Application() {
 class AppActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        multiplatform.network.cmptoast.AppContext.apply { set(applicationContext) }
         enableEdgeToEdge()
         setContent { App() }
     }

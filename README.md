@@ -271,6 +271,16 @@ commonMain.dependencies {
             </div>         
         </td>
     </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <h4>TreeMap Chart</h4>
+            <hr>
+            <img src="/assets/treemap1.png" alt="TreeMap Chart" style="height: 260px;">
+            <div style="text-align: center;">
+                <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/treemapchart/TreeMapChart.kt">Code Snippet</a></sup>
+            </div>
+        </td>
+    </tr>
 </table>
 
 

@@ -51,7 +51,6 @@ fun getBarChartData(
 ): List<BarData> {
     val list = arrayListOf<BarData>()
     for (index in 0 until listSize) {
-        println("$index")
         val point = when (barChartType) {
             BarChartType.VERTICAL -> {
                 Point(

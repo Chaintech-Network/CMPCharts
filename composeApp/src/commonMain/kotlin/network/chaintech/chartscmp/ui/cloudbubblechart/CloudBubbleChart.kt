@@ -36,9 +36,9 @@ fun BubbleChartPreview() {
     Box(modifier = Modifier.fillMaxSize().border(width = 1.dp, color = Color.Gray), contentAlignment = Alignment.Center) {
         BubbleCloudChart(
             bubbleChartConfig = BubbleChartConfig(
-                minBubbleRadius = 80.dp,
+                minBubbleRadius = 55.dp,
                 bubbleData = data,
-                distanceBetweenCircles = 10f,
+                distanceBetweenCircles = -20f,
                 bubbleContent = { bubbleData ->
                     Column(
                         horizontalAlignment = Alignment.CenterHorizontally,
@@ -81,7 +81,7 @@ fun BubbleChartPreview() {
                     }
                 },
             ),
-            modifier = Modifier
+            modifier = Modifier.fillMaxSize()
         )
     }
 }
@@ -90,13 +90,13 @@ fun BubbleChartPreview() {
 fun getCloudBubbleChartSampleData(): List<BubbleData> {
     val bubblesList = mutableListOf<BubbleData>()
     val itemList = listOf("Peru", "Laos", "Chad", "Mali", "Oman")
-    for (i in 0 until 5) {
-        val value = 100f + i * i * 10
+    val itemValue = listOf(100f, 300f, 50f, 200f, 500f)
+    for (i in itemList.indices) {
         bubblesList.add(
             BubbleData(
                 bubbleColor = Color.Green,
                 image = Icons.Outlined.Place,
-                value = value,
+                value = /*value*/itemValue[i],
                 title = itemList[i]
             )
         )
