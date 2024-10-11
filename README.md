@@ -1,11 +1,19 @@
 # Compose Multiplatform Charts(CMPCharts)
 
+[![Maven Central](https://img.shields.io/maven-central/v/network.chaintech/cmpcharts.svg)](https://central.sonatype.com/artifact/network.chaintech/cmpcharts)
+[![Kotlin](https://img.shields.io/badge/kotlin-v2.0.0-blue.svg?logo=kotlin)](http://kotlinlang.org)
+[![Compose Multiplatform](https://img.shields.io/badge/Compose%20Multiplatform-v1.6.11-blue)](https://github.com/JetBrains/compose-multiplatform)
+[![License](https://img.shields.io/github/license/Chaintech-Network/CMPCharts)](http://www.apache.org/licenses/LICENSE-2.0)
+
+![badge-android](http://img.shields.io/badge/platform-android-3DDC84.svg?style=flat)
+![badge-ios](http://img.shields.io/badge/platform-ios-FF375F.svg?style=flat)
+
 ✨ A very Minimal, Sleek and Lightweight Graph library for <b>Compose Multiplatform</b>
 
 <img width="960" alt="Hero-image - CMP-Chart 3" src="/assets/banner.png">
 
 
-## Key Features
+## ✨ Key Features
 
 **Cross-Platform Compatibility:**
 Integrates seamlessly with Compose Multiplatform projects, ensuring consistent functionality and aesthetics across iOS and Android.
@@ -19,8 +27,30 @@ Customize colors, styles, and animations to match app design. Toggle interactive
 **Intuitive Controls:**
 Empowers users with intuitive features like data point selection and axis toggling.
 
+## 🎉 What's New in Version 2.0.2
+<table>
+    <tr>
+        <td colspan="1" align="center">
+            <h3>Cloud Bubble Chart</h3>
+            <hr>
+            <img src="/assets/cloudbubble1.png" alt="Cloud Bubble Chart" style="height: 260px;">
+            <div style="text-align: center;">
+                <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/cloudbubblechart/CloudBubbleChart.kt">Code Snippet</a></sup>
+            </div>         
+        </td>
+        <td colspan="2" align="center">
+            <h3>Tree Map Chart</h3>
+            <hr>
+            <img src="/assets/treemap1.png" alt="Tree Map Chart" style="height: 260px;">
+            <div style="text-align: center;">
+                <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/treemapchart/TreeMapChart.kt">Code Snippet</a></sup>
+            </div>
+        </td>
+    </tr>
+</table>
 
-## Installation
+
+## 📦 Installation
 
 Add the following dependency to your `build.gradle.kts` file:
 
@@ -30,7 +60,7 @@ commonMain.dependencies {
 }
 ```
 
-## Graphs Available
+## 📊 Graphs Available
 
 <table>
     <tr>
@@ -273,9 +303,9 @@ commonMain.dependencies {
     </tr>
     <tr>
         <td colspan="2" align="center">
-            <h4>TreeMap Chart</h4>
+            <h4>Tree Map Chart</h4>
             <hr>
-            <img src="/assets/treemap1.png" alt="TreeMap Chart" style="height: 260px;">
+            <img src="/assets/treemap1.png" alt="Tree Map Chart" style="height: 260px;">
             <div style="text-align: center;">
                 <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/treemapchart/TreeMapChart.kt">Code Snippet</a></sup>
             </div>
@@ -284,7 +314,26 @@ commonMain.dependencies {
 </table>
 
 
-## Detailed Explanation
-For a detailed explanation and a comprehensive guide, please read the [Medium blog post.](https://medium.com/mobile-innovation-network/introducing-compose-multiplatform-charts-solution-for-seamless-charts-integration-to-app-488355a6e098)
+## 📖 Detailed Explanation
+For an in-depth guide and detailed explanation, check out our comprehensive Medium Blog Post.
 
-Connect with us on [LinkedIn](https://www.linkedin.com/showcase/mobile-innovation-network)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/mobile-innovation-network/introducing-compose-multiplatform-charts-solution-for-seamless-charts-integration-to-app-488355a6e098)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/showcase/mobile-innovation-network)
+
+
+## 📄 License
+```
+Copyright 2023 Mobile Innovation Network
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
