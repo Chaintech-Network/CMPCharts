@@ -54,7 +54,7 @@ kotlin {
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
             implementation("network.chaintech:cmptoast:1.0.1")
-            implementation("network.chaintech:cmpcharts:2.0.2")
+            implementation("network.chaintech:cmpcharts:2.0.3")
         }
 
 //        commonTest.dependencies {

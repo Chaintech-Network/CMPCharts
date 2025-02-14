@@ -30,6 +30,7 @@ fun PieChartWithSliceLabels() {
                 Font(Res.font.Roboto_Medium, weight = FontWeight.Normal)
             ),
             showSliceLabels = true,
+            showSlicePercentageLabels = true,
             labelVisible = true
         )
     Column(modifier = Modifier.height(500.dp)) {

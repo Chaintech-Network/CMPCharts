@@ -33,6 +33,7 @@ fun SimplePieChart() {
             chartPadding = 30,
             backgroundColor = white_color,
             showSliceLabels = false,
+            showSlicePercentageLabels = false,
             animationDuration = 1500
         )
     Column(modifier = Modifier.height(500.dp)) {
