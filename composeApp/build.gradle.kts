@@ -54,7 +54,7 @@ kotlin {
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
             implementation("network.chaintech:cmptoast:1.0.1")
-            implementation("network.chaintech:cmpcharts:2.0.3")
+            implementation("network.chaintech:cmpcharts:2.0.4")
         }
 
 //        commonTest.dependencies {
@@ -75,11 +75,11 @@ kotlin {
 
 android {
     namespace = "network.chaintech.chartscmp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
 
         applicationId = "network.chaintech.chartscmp.androidApp"
         versionCode = 1

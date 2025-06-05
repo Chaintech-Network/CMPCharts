@@ -18,14 +18,18 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import network.chaintech.chartscmp.theme.AppTheme
 import network.chaintech.chartscmp.theme.white_color
 import network.chaintech.chartscmp.ui.areachart.AreaChartDemo
 import network.chaintech.chartscmp.ui.barchart.BarChartWithBackgroundColor
-import network.chaintech.chartscmp.ui.barchart.BarChartWithGradientBars
-import network.chaintech.chartscmp.ui.barchart.BarChartWithSolidBars
+import network.chaintech.chartscmp.ui.barchart.GradientBarChart
+import network.chaintech.chartscmp.ui.barchart.GradientBarChartWithCustomPoint
 import network.chaintech.chartscmp.ui.barchart.HorizontalBarChart
+import network.chaintech.chartscmp.ui.barchart.HorizontalBarChartCustomPoint
+import network.chaintech.chartscmp.ui.barchart.SimpleBarChart
+import network.chaintech.chartscmp.ui.barchart.SimpleBarChartWithCustomPoint
 import network.chaintech.chartscmp.ui.barchart.VerticalGroupBarChart
 import network.chaintech.chartscmp.ui.barchart.VerticalStackedBarChart
 import network.chaintech.chartscmp.ui.bottlechart.BottleChartDemo
@@ -279,14 +283,30 @@ internal fun App() = AppTheme {
             style = MaterialTheme.typography.titleLarge,
             fontWeight = FontWeight.Bold
         )
-        BarChartWithSolidBars()
+        SimpleBarChart()
+        Text(
+            modifier = Modifier.padding(12.dp),
+            text = "Simple Bar Chart Custom Start Point",
+            style = MaterialTheme.typography.titleLarge,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
+        SimpleBarChartWithCustomPoint()
         Text(
             modifier = Modifier.padding(12.dp),
             text = "Gradient Bar Chart",
             style = MaterialTheme.typography.titleLarge,
             fontWeight = FontWeight.Bold
         )
-        BarChartWithGradientBars()
+        GradientBarChart()
+        Text(
+            modifier = Modifier.padding(12.dp),
+            text = "Gradient Bar Chart Custom Start Point",
+            style = MaterialTheme.typography.titleLarge,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
+        GradientBarChartWithCustomPoint()
         Text(
             modifier = Modifier.padding(12.dp),
             text = "Bar Chart with Background Color",
@@ -301,6 +321,14 @@ internal fun App() = AppTheme {
             fontWeight = FontWeight.Bold
         )
         HorizontalBarChart()
+        Text(
+            modifier = Modifier.padding(12.dp),
+            text = "Horizontal Bar Chart Custom Start Point",
+            style = MaterialTheme.typography.titleLarge,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
+        HorizontalBarChartCustomPoint()
         Text(
             modifier = Modifier.padding(12.dp),
             text = "Grouped Bar Chart",

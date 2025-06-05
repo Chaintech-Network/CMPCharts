@@ -9,6 +9,7 @@ import androidx.compose.ui.unit.dp
 import network.chaintech.chartscmp.theme.font_color
 import network.chaintech.chartscmp.theme.gray_light
 import network.chaintech.chartscmp.theme.magenta_dark
+import network.chaintech.chartscmp.theme.purple_medium
 import network.chaintech.chartscmp.theme.white_color
 import network.chaintech.cmpcharts.axis.AxisProperties
 import network.chaintech.cmpcharts.ui.barchart.BarChart
@@ -20,7 +21,7 @@ import network.chaintech.composeapp.generated.resources.Roboto_Regular
 import org.jetbrains.compose.resources.Font
 
 @Composable
-fun GradientBarChart() {
+fun GradientBarChartWithCustomPoint() {
     val maxRange = 100
     val barData = getGradientBarChartData(50, 100)
     val yStepSize = 10
@@ -63,7 +64,11 @@ fun GradientBarChart() {
                 highlightTextTypeface = FontWeight.Bold,
                 highlightTextBackgroundColor = magenta_dark,
                 popUpLabel = { _, y -> " Value : $y " }
-            )),
+            ),
+            customStartPointHighlightColor = purple_medium,
+            customStartPointValue = 50f,
+            shouldStartFromCustomPoint = true
+        ),
         horizontalExtraSpace = 20.dp
     )
     BarChart(modifier = Modifier.height(350.dp), barChartData = barChartData)

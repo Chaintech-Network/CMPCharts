@@ -66,7 +66,6 @@ fun VerticalStackedBarChart() {
         topPadding = 36.dp
     )
 
-
     val colorPaletteList = getColorPaletteList2()
     val legendsConfig = LegendsConfig(
         legendLabelList = getLegendsLabelDataBarChart(colorPaletteList),

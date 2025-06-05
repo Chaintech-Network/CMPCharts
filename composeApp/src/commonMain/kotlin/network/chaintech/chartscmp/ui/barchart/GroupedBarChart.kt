@@ -37,7 +37,6 @@ fun VerticalGroupBarChart() {
         lineColor = font_color,
         labelFormatter = { index -> index.toString() }
     )
-
     val yAxisProperty = AxisProperties(
         font = FontFamily(
             Font(Res.font.Roboto_Regular, weight = FontWeight.Normal)
@@ -49,7 +48,6 @@ fun VerticalGroupBarChart() {
         lineColor = font_color,
         labelFormatter = { index -> (index * (maxRange / yStepSize)).toString() }
     )
-
     val colorPaletteList = getColorPaletteList1()
     val legendsConfig = LegendsConfig(
         legendLabelList = getLegendsLabelDataBarChart(colorPaletteList),

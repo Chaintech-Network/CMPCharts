@@ -22,7 +22,7 @@ import network.chaintech.composeapp.generated.resources.Roboto_Regular
 import org.jetbrains.compose.resources.Font
 
 @Composable
-fun BarChartWithSolidBars() {
+fun SimpleBarChart() {
     val maxRange = 50
     val barData = getBarChartData(50, maxRange, BarChartType.VERTICAL, DataCategorySettings())
     val yStepSize = 10
@@ -44,7 +44,7 @@ fun BarChartWithSolidBars() {
 
     val yAxisData = AxisProperties(
         font = FontFamily(
-        Font(Res.font.Roboto_Regular, weight = FontWeight.Normal)
+            Font(Res.font.Roboto_Regular, weight = FontWeight.Normal)
         ),
         stepCount = yStepSize,
         labelPadding = 20.dp,
