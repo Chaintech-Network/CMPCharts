@@ -27,50 +27,16 @@ Customize colors, styles, and animations to match app design. Toggle interactive
 **Intuitive Controls:**
 Empowers users with intuitive features like data point selection and axis toggling.
 
-## 🎉 What's New in Version 2.0.4
-<table>
-    <tr>
-        <td colspan="1" align="center">
-            <h3>Bar Chart With Custom Start Point</h3>
-            <hr>
-            <img src="/assets/bar7.png" alt="Bar Chart With Custom Start Point" style="height: 260px;">
-            <div style="text-align: center;">
-                <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/barchart/SimpleBarChartWithCustomPoint.kt">Code Snippet</a></sup>
-            </div>         
-        </td>
-        <td colspan="1" align="center">
-            <h3>Gradeint Bar Chart With Custom Start Point</h3>
-            <hr>
-            <img src="/assets/bar8.png" alt="Gradeint Bar Chart With Custom Start Point" style="height: 260px;">
-            <div style="text-align: center;">
-                <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/barchart/GradientBarChartWithCustomPoint.kt">Code Snippet</a></sup>
-            </div>
-        </td>
-        <td colspan="1" align="center">
-            <h3>Horizontal Bar Chart With Custom Start Point</h3>
-            <hr>
-            <img src="/assets/bar9.png" alt="Horizontal Bar Chart With Custom Start Point" style="height: 260px;">
-            <div style="text-align: center;">
-                <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/barchart/HorizontalBarChartWithCustomPoint.kt">Code Snippet</a></sup>
-            </div>
-        </td>
-    </tr>
-</table>
-
-- Added bar chart support with configurable start point
-- Fixed pie chart text drawing issues  
-- Fixed highlight popup on horizontal bar charts  
-- Minor performance and bug fixes  
-- Updated Kotlin to 2.1.20 and Compose Multiplatform to 1.8.1  
-
-
+## 🎉 What's New in Version 2.0.5
+- Fix reported issues with line chart, treemap chart & other bug fixes
+  
 ## 📦 Installation
 
 Add the following dependency to your `build.gradle.kts` file:
 
 ```kotlin
 commonMain.dependencies {
-    implementation("network.chaintech:cmpcharts:2.0.4")
+    implementation("network.chaintech:cmpcharts:2.0.5")
 }
 ```
 
@@ -178,6 +144,32 @@ commonMain.dependencies {
             <img src="/assets/bar6.png" alt="Stacked Bar Chart" style="height: 260px;">
             <div style="text-align: center;">
                 <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/barchart/StackedBarChart.kt">Code Snippet</a></sup>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="1" align="center">
+            <h3>Bar Chart With Custom Start Point</h3>
+            <hr>
+            <img src="/assets/bar7.png" alt="Bar Chart With Custom Start Point" style="height: 260px;">
+            <div style="text-align: center;">
+                <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/barchart/SimpleBarChartWithCustomPoint.kt">Code Snippet</a></sup>
+            </div>         
+        </td>
+        <td colspan="1" align="center">
+            <h3>Gradeint Bar Chart With Custom Start Point</h3>
+            <hr>
+            <img src="/assets/bar8.png" alt="Gradeint Bar Chart With Custom Start Point" style="height: 260px;">
+            <div style="text-align: center;">
+                <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/barchart/GradientBarChartWithCustomPoint.kt">Code Snippet</a></sup>
+            </div>
+        </td>
+        <td colspan="1" align="center">
+            <h3>Horizontal Bar Chart With Custom Start Point</h3>
+            <hr>
+            <img src="/assets/bar9.png" alt="Horizontal Bar Chart With Custom Start Point" style="height: 260px;">
+            <div style="text-align: center;">
+                <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/barchart/HorizontalBarChartWithCustomPoint.kt">Code Snippet</a></sup>
             </div>
         </td>
     </tr>
@@ -330,7 +322,7 @@ commonMain.dependencies {
 
 ## 🔮 Upcoming
 
-- Line chart support with configurable start point
+- Polar Line Chart 
 
 ## 📖 Detailed Explanation
 For an in-depth guide and detailed explanation, check out our comprehensive Medium Blog Post.

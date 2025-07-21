@@ -34,11 +34,12 @@ fun StraightLineChart(pointsData: List<Point>) {
         font = FontFamily(
             Font(Res.font.Roboto_Regular, weight = FontWeight.Normal)
         ),
+        initialDrawPadding = 14.dp,
         stepSize = 40.dp,
         stepCount = pointsData.size - 1,
         labelFormatter = { i -> (1900 + i).toString() },
-        labelRotationAngle = 20f,
-        labelPadding = 15.dp,
+        labelRotationAngle = 15f,
+        labelPadding = 10.dp,
         labelColor = font_color,
         lineColor = font_color,
         weight = FontWeight.Bold
@@ -49,12 +50,12 @@ fun StraightLineChart(pointsData: List<Point>) {
             Font(Res.font.Roboto_Regular, weight = FontWeight.Normal)
         ),
         stepCount = 10,
+        labelRotationAngle = 350f,
         labelFormatter = { i -> "${(i * 20)}k" },
         labelPadding = 30.dp,
         labelColor = font_color,
         lineColor = font_color,
-        weight = FontWeight.Bold
-
+        weight = FontWeight.Bold,
     )
 
     val lineChartProperties = LineChartProperties(
