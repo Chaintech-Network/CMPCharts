@@ -51,6 +51,7 @@ import network.chaintech.chartscmp.ui.linechart.getLineChartData
 import network.chaintech.chartscmp.ui.piechart.PieChartWithSliceLabels
 import network.chaintech.chartscmp.ui.piechart.SimplePieChart
 import network.chaintech.chartscmp.ui.pointchart.PointChartDemo
+import network.chaintech.chartscmp.ui.polarareachart.PolarAreaChartDemo
 import network.chaintech.chartscmp.ui.radarchart.RadarChartDemo
 import network.chaintech.chartscmp.ui.segmentprogressbarchart.SegmentProgressBarChartDemo
 import network.chaintech.chartscmp.ui.treemapchart.TreeMapChartPreview
@@ -67,6 +68,13 @@ internal fun App() = AppTheme {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Text(
+            modifier= Modifier.padding(12.dp),
+            text = "Polar Area Chart",
+            style = MaterialTheme.typography.titleLarge,
+            fontWeight = FontWeight.Bold
+        )
+        PolarAreaChartDemo(modifier = Modifier.fillMaxWidth().height(450.dp))
         Text(
             modifier= Modifier.padding(12.dp),
             text = "TreeMap Chart",

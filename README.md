@@ -27,8 +27,22 @@ Customize colors, styles, and animations to match app design. Toggle interactive
 **Intuitive Controls:**
 Empowers users with intuitive features like data point selection and axis toggling.
 
-## 🎉 What's New in Version 2.0.5
-- Fix reported issues with line chart, treemap chart & other bug fixes
+## 🎉 What's New in Version 2.0.6
+<table>
+    <tr>
+        <td colspan="1" align="center">
+            <h3>Polar Area Chart</h3>
+            <hr>
+            <img src="/assets/polarchart.png" alt="Polar Area Chart" style="height: 260px;">
+            <div style="text-align: center;">
+                <sup><a href="https://github.com/Chaintech-Network/CMPCharts/blob/main/composeApp/src/commonMain/kotlin/network/chaintech/chartscmp/ui/polarareachart/PolarAreaChart.kt">Code Snippet</a></sup>
+            </div>         
+        </td>
+    </tr>
+</table>
+
+- Added Polar Area Chart with customisations options
+- Version Updates & Issue Fixes
   
 ## 📦 Installation
 
@@ -36,7 +50,7 @@ Add the following dependency to your `build.gradle.kts` file:
 
 ```kotlin
 commonMain.dependencies {
-    implementation("network.chaintech:cmpcharts:2.0.5")
+    implementation("network.chaintech:cmpcharts:2.0.6")
 }
 ```
 
@@ -318,11 +332,7 @@ commonMain.dependencies {
         </td>
     </tr>
 </table>
-
-
-## 🔮 Upcoming
-
-- Polar Line Chart 
+ 
 
 ## 📖 Detailed Explanation
 For an in-depth guide and detailed explanation, check out our comprehensive Medium Blog Post.
